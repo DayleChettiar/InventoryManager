@@ -3,9 +3,17 @@ package com.dayle.domain;
 import java.io.Serializable;
 
 public class Product implements Serializable {
-
+	private int id;
     private String description;
     private Double price;
+    
+    public void setId(int i) {
+        id = i;
+    }
+
+    public int getId() {
+        return id;
+    }
     
     public String getDescription() {
         return description;
