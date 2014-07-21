@@ -136,6 +136,7 @@
 <!-- End Tomcat tasks -->
 
     <property name="test.dir" value="test"/>
+    
     <path id="test-classpath">
         <fileset dir="${web.dir}/WEB-INF/lib">
             <include name="*.jar"/>
